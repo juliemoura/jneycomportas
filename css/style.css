@@ -90,23 +90,25 @@ header{
 }
 
 .modelo1{
-    margin-left: 75px;
+    margin-left: 90px;
 }
 
 .modelo2{
-    margin-left: 75px;
+    margin-left: 90px;
 }
 
 .modelo3{
-    margin-left: 56px;
+    margin-left: 80px;
 }
 
 .modelo4{
-    margin-left: 38px;
+    margin-left: 58px;
 }
 
 .modelo5{
-    margin-left: 21px;
+    margin-left: 44px;
+    width: 100%;
+    max-width: 80%;
 }
 
 .paragrafo-somos{
@@ -177,7 +179,9 @@ header{
 }
 
 .botaowpp{
-    margin-left: 52px;
+    margin-left: 44px;
+    width: 100%;
+    max-width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 14px 14px;
@@ -188,7 +192,9 @@ header{
 }
 
 .botaoinsta{
-    margin-left: 52px;
+    margin-left: 44px;
+    width: 100%;
+    max-width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 14px 14px;
@@ -200,7 +206,9 @@ header{
 }
 
 .botaoemail{
-    margin-left: 114px;
+    margin-left: 44px;
+    width: 100%;
+    max-width: 80%;
     margin-top: 10px;
     margin-bottom: 40px;
     padding: 14px 14px;
