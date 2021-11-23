@@ -1,0 +1,261 @@
+header{
+    background-color: #363A4D;
+}
+
+.imgsvg{
+    align-items: center;
+    width: 100%;
+}
+
+.navegacao{
+    text-align: center;
+    color: #EDECED;
+}
+
+
+.nav{
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+
+    text-align: center;
+}
+
+.vantagens{
+    display: block;
+}
+
+.vant-item {
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+
+    padding: 2rem 0 2rem 5rem;
+}
+
+.vantagens-all{
+    width: 100%; /*para quando a tela for grande, meu cabecalho ir acompanhando*/
+    max-width: 980px;
+}
+
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.vantagem-custo{
+    background-image: url(../img/custo.png);
+}
+
+.vantagem-qualidade{
+    background-image: url(../img/qualidade.png);
+}
+
+.vantagem-seguranca{
+    background-image: url(../img/seguranca.png);
+}
+
+.subtitulo-vantagens{
+    color: #363A4D;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.vantagem-desc{
+    line-height: normal;
+}
+
+.comp-tipos{
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.modelos-titulo{
+    font-size: 18px;
+    color: #363A4D;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.modelo1{
+    margin-left: 75px;
+}
+
+.modelo2{
+    margin-left: 75px;
+}
+
+.modelo3{
+    margin-left: 56px;
+}
+
+.modelo4{
+    margin-left: 38px;
+}
+
+.modelo5{
+    margin-left: 21px;
+}
+
+.paragrafo-somos{
+    margin-top: 10px;
+    text-align: center;
+    line-height: normal;
+
+}
+
+.video{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 40px;
+}
+
+.galeria{
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-foto{
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.slide-foto:nth-child(1){
+    animation-delay: 5s;
+}
+.slide-foto:nth-child(2){
+    animation-delay: 5s;
+}
+.slide-foto:nth-child(3){
+    animation-delay: 10s;
+}
+.slide-foto:nth-child(4){
+    animation-delay: 15s;
+}
+.slide-foto:nth-child(5){
+    
+}
+
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        transform: scale(1.1,1.1);
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.orcamentos-desc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.botoes{
+    display: block;
+
+}
+
+.botaowpp{
+    margin-left: 52px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 14px 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient(#ECE5DD, #363A4D);
+    color: #ffffff;
+}
+
+.botaoinsta{
+    margin-left: 52px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 14px 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(#ECE5DD, #363A4D);
+    color: #ffffff;
+
+}
+
+.botaoemail{
+    margin-left: 114px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 14px 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient(#ECE5DD, #363A4D);
+    color: #ffffff;
+}
+
+footer{
+	text-align: center; /*alinhando o texto no centro*/ 
+	background-color: #363A4D; /*coloca um background como imagem*/ 
+	padding: 40px 0;  /*40px para cima e p baixo e 0 para os lados*/ 
+}
+
+.itensfooter li{
+    display: inline-block;
+}
+
+.desc{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.redestotais li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-pequena-jney {
+    margin-left: 4px;
+}
+
+.copyright{
+	color: #FFFFFF; /*alterando a cor do texto de copyright para branco*/
+	font-size: 13px; /*alterando o tamanho de texto de copyright para 13px*/
+	margin-top: 60px;  /*alterando o espaço de cima entre a foto e o texto*/
+    margin-bottom: 0;
+} 
+
+.dev-por{
+	float: right;
+	margin-right: 69px;
+    margin-top: 19px;
+    color:#ffffff;
+}
+
+@media screen and (min-width: 1024px){
+header{
+
+}
+
+
+}
+
+
+
