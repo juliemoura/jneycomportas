@@ -382,6 +382,14 @@ footer{
         color:#ffffff;
     }
 
+    .julie:hover{
+        color:#d3d3d3;
+
+        transition: 1s;
+
+        font-size: 17px;
+    }
+
 }
 
 @media screen and (min-width: 1900px){
