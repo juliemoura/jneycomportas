@@ -128,23 +128,23 @@ header{
 
 
 .modelo1{
-    margin-left: 90px;
+    margin-left: 20%;
 }
 
 .modelo2{
-    margin-left: 90px;
+    margin-left: 20%;
 }
 
 .modelo3{
-    margin-left: 80px;
+    margin-left: 20%;
 }
 
 .modelo4{
-    margin-left: 58px;
+    margin-left: 13%;
 }
 
 .modelo5{
-    margin-left: 44px;
+    margin-left: 9%;
 
     width: 100%;
     max-width: 80%;
@@ -278,7 +278,7 @@ footer{
 .dev-por{
 	float: right;
 
-	margin-right: 88px;
+	margin-right: 3%;
     margin-top: 19px;
 
     color:#ffffff;
@@ -335,6 +335,10 @@ footer{
         margin-left: 10%;
     }
 
+    .modelo1, .modelo2, .modelo3, .modelo4, .modelo5{
+        box-shadow: 8px 8px 8px #363A4D;
+    }
+
     .modelo1:hover, .modelo2:hover, .modelo3:hover, .modelo4:hover, .modelo5:hover{
         opacity: 50%;
 
@@ -346,6 +350,9 @@ footer{
         margin-left: 37%;
 
         width: 25%;
+
+        box-shadow: 8px 8px 8px #363A4D;
+
     }
 
     .quemsomos{
@@ -354,6 +361,7 @@ footer{
 
     .botoes{
         width: 27%;
+
         margin-left: 36%;
     }
 
@@ -384,7 +392,7 @@ footer{
     
     .botoes{
         width: 27%;
-        
+
         margin-left: 37%;
     }
 
