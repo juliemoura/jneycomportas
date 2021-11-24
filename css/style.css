@@ -3,12 +3,13 @@ header{
 }
 
 .imgsvg{
-    align-items: center;
-    width: 100%;
+    margin-left: 14%;
+    width: 70%;
 }
 
 .navegacao{
     text-align: center;
+
     color: #EDECED;
 }
 
@@ -26,7 +27,8 @@ header{
 }
 
 .vantagens{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .vant-item {
@@ -47,8 +49,10 @@ header{
 
 .titulos{
     text-align: center;
+
     font-weight: bold;
     font-size: 25px;
+
     margin-top: 70px;
 }
 
@@ -66,7 +70,9 @@ header{
 
 .subtitulo-vantagens{
     color: #363A4D;
+
     font-weight: bold;
+
     margin-bottom: 5px;
 }
 
@@ -76,18 +82,50 @@ header{
 
 .comp-tipos{
     padding-top: 25px;
-    text-align: center;
     padding-bottom: 25px;
+
+    text-align: center;
 }
 
 .modelos-titulo{
     font-size: 18px;
+
     color: #363A4D;
+
     font-weight: bold;
+
     margin-bottom: 15px;
     margin-top: 25px;
+
     text-align: center;
 }
+
+.modelos-titulo2{
+    font-size: 18px;
+
+    color: #363A4D;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+    margin-top: 25px;
+
+    text-align: center;
+}
+
+.modelos-titulo3{
+    font-size: 18px;
+
+    color: #363A4D;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+    margin-top: 25px;
+
+    text-align: center;
+}
+
 
 .modelo1{
     margin-left: 90px;
@@ -107,63 +145,24 @@ header{
 
 .modelo5{
     margin-left: 44px;
+
     width: 100%;
     max-width: 80%;
 }
 
 .paragrafo-somos{
     margin-top: 10px;
+
     text-align: center;
+
     line-height: normal;
-
 }
 
-.video{
+.videos{
     margin-top: 10px;
-    width: 80%;
     margin-left: 40px;
-}
 
-.galeria{
-    margin-top: 20px;
-    margin-left: 15px;
-    height: 200px;
-    position: relative;
-    overflow: hidden;
-}
-
-.slide-foto{
-    position: absolute;
-    opacity: 0;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-.slide-foto:nth-child(1){
-    animation-delay: 5s;
-}
-.slide-foto:nth-child(2){
-    animation-delay: 5s;
-}
-.slide-foto:nth-child(3){
-    animation-delay: 10s;
-}
-.slide-foto:nth-child(4){
-    animation-delay: 15s;
-}
-.slide-foto:nth-child(5){
-    
-}
-
-@keyframes animacao{
-    25%{
-        opacity: 1;
-        transform: scale(1.1,1.1);
-    }
-    50%{
-        opacity: 0;
-    }
+    width: 80%;
 }
 
 .orcamentos-desc {
@@ -179,53 +178,71 @@ header{
 
 .botaowpp{
     margin-left: 44px;
-    width: 100%;
-    max-width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    width: 100%;
+    max-width: 80%;
+
     padding: 14px 14px;
+
     font-weight: bold;
-    border-radius: 5px;
-    background-image: linear-gradient(#ECE5DD, #363A4D);
-    color: #ffffff;
     font-size: 16px;
+
+    border-radius: 5px;
+
+    background-image: linear-gradient(#ECE5DD, #363A4D);
+    
+    color: #ffffff;
 }
 
 .botaoinsta{
     margin-left: 44px;
-    width: 100%;
-    max-width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    width: 100%;
+    max-width: 80%;
+
     padding: 14px 14px;
+
     border-radius: 5px;
+
     font-weight: bold;
-    background-image: linear-gradient(#ECE5DD, #363A4D);
-    color: #ffffff;
     font-size: 16px;
 
+    background-image: linear-gradient(#ECE5DD, #363A4D);
 
+    color: #ffffff;
 }
 
 .botaoemail{
-    margin-left: 44px;
-    width: 100%;
     max-width: 80%;
     margin-top: 10px;
+    margin-left: 44px;
+
+    width: 100%;
+
     margin-bottom: 40px;
+
     padding: 14px 14px;
+
     font-weight: bold;
-    border-radius: 5px;
-    background-image: linear-gradient(#ECE5DD, #363A4D);
-    color: #ffffff;
     font-size: 16px;
 
+    border-radius: 5px;
+
+    background-image: linear-gradient(#ECE5DD, #363A4D);
+
+    color: #ffffff;
 }
 
 footer{
-	text-align: center; /*alinhando o texto no centro*/ 
-	background-color: #363A4D; /*coloca um background como imagem*/ 
-	padding: 40px 0;  /*40px para cima e p baixo e 0 para os lados*/ 
+	text-align: center; 
+
+	background-color: #363A4D; 
+
+	padding: 40px 0;  
 }
 
 .itensfooter li{
@@ -234,11 +251,13 @@ footer{
 
 .desc{
     font-size: 25px;
+
     color: #ffffff;
 }
 
 .redestotais li{
     display: inline-block;
+
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -248,26 +267,125 @@ footer{
 }
 
 .copyright{
-	color: #FFFFFF; /*alterando a cor do texto de copyright para branco*/
-	font-size: 13px; /*alterando o tamanho de texto de copyright para 13px*/
-	margin-top: 60px;  /*alterando o espaço de cima entre a foto e o texto*/
+	color: #FFFFFF;
+
+	font-size: 13px; 
+
+	margin-top: 60px;  
     margin-bottom: 0;
 } 
 
 .dev-por{
 	float: right;
+
 	margin-right: 88px;
     margin-top: 19px;
+
     color:#ffffff;
 }
 
 @media screen and (min-width: 1024px){
-header{
+    .imgsvg{
+        width: 100%;
+        max-width: 20%;
+
+        margin-left: 40%;
+    }
+
+    .vantagens li{
+        display: inline-block;
+    }
+
+    .vantagens{
+        justify-content: space-around;
+
+        margin-top: 40px;
+        margin-right: -7%;
+    }
+
+    .comportastudo{
+        margin-top: 100px;
+    }
+
+    .comportas-tipos{
+        justify-content: space-around;
+
+        margin-top: 45px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .modelos-titulo{
+        margin-right: -17%;
+        margin-left: 10%;
+    }
+
+    .modelos-titulo2{
+        margin-top: 70px;
+        margin-right: -5%;
+        margin-left: 10%;
+    }
+
+    .modelos-titulo3{
+        margin-top: 70px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .modelo1:hover, .modelo2:hover, .modelo3:hover, .modelo4:hover, .modelo5:hover{
+        opacity: 50%;
+
+        transition: 1s;
+    }
+
+    .videos{
+        margin-top: 30px;
+        margin-left: 37%;
+
+        width: 25%;
+    }
+
+    .quemsomos{
+        margin-top: 100px;
+    }
+
+    .botoes{
+        width: 27%;
+        margin-left: 36%;
+    }
+
+    .botaowpp:hover, .botaoinsta:hover, .botaoemail:hover{
+        font-size: 20px;
+
+        background: #363A4D;
+
+        transition: 1s;
+    }
+
+    .dev-por{
+        float: right;
+
+        margin-right: 15px;
+        margin-top: 19px;
+
+        color:#ffffff;
+    }
 
 }
 
+@media screen and (min-width: 1900px){
+    .comportas-tipos{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .botoes{
+        width: 27%;
+        
+        margin-left: 37%;
+    }
 
 }
-
-
-

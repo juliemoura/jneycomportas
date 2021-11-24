@@ -13,10 +13,8 @@ body {
 }
 
 .container { /* esse container vai ser o espaçamento de toda a pagina*/
-    padding-right: 6%;
-    padding-left: 6%;
-
-
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .containerr{
